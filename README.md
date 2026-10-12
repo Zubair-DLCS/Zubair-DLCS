@@ -1,6 +1,6 @@
 ### Hi, I'm Zuabir 👋
 
-**PhD student**.  My research focus on Trustworthy machine learning application in safety critical systems. 
+**I am PhD student at the unversity of Malakand, Pakistan**.  My research focus on Trustworthy machine learning application in safety critical systems. 
 
 My background is **ML/DL application in cybersecurity and information integrity*. I train deep networks to identify, classify and address information/jamming attacks. I look at coordinated campaigns/interferences that drown out real information/voices. 
 
