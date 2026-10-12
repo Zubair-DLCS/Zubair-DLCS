@@ -15,6 +15,11 @@ My background is **ML/DL applications in cybersecurity and information integrity
 - Spectrogram- and signal-based deep learning (CNNs, Vision Transformers)
 
 #### 📌 Featured projects
+**[Beyond Copy-Paste](https://github.com/Zubair-DLCS/beyond-copy-paste)**: detecting coordinated
+campaigns that paraphrase with AI. Exact matching recognises 0% of AI rewrites, semantic similarity 91%;
+a detector trained on other campaigns holds at 0.97 average precision under combined evasion. Also
+measures what privacy protections (hashing, coarse timestamps, differential privacy) cost detection.
+
 **[Two Clocks](https://github.com/Zubair-DLCS/two-clocks)**: forensics of 1.79 M tweets from Russia's Internet
 Research Agency. Two natural experiments (US daylight-saving changes and national holidays)
 show that the personas posing as Americans don't run on American time. Language models
