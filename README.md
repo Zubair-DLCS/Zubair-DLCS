@@ -1,11 +1,10 @@
 ### Hi, I'm Zubair 👋
 
-PhD student at the **University of Malakand**, Pakistan. I study how machine learning can be used to secure safety critical systems. 
-holds up when someone is actively trying to break it.
+PhD student at the **University of Malakand**, Pakistan. I study how machine learning can be used to secure safety-critical systems.
 
-My background is **ML/DL application in cybersecurity and information integrity*. I train deep networks to identify, classify and address information/jamming attacks. I look at coordinated campaigns/interferences that drown out real information/voices. 
+My background is **ML/DL applications in cybersecurity and information integrity**. I train deep networks to identify, classify and address information/jamming attacks. I look at coordinated campaigns/interferences that drown out real information/voices. 
 
-**My research interest revolves around "can we detect, measure and remove interference without silencing the information/signal we care about"?
+**My research revolves around one question:** can we detect, measure and remove interference without silencing the information or signal we care about?
 
 ---
 
@@ -33,7 +32,7 @@ voices, tests whether detectors survive adaptive adversaries, and quantifies wha
 costs real users.
 
 #### 📄 Publications
-Khan, Zubair, et al. "Taxonomy of Cybersecurity Challenges and Solutions for the Superintelligent Systems." Information and Software Technology (2026): 108152.
+- Khan, Zubair, et al. "Taxonomy of Cybersecurity Challenges and Solutions for the Superintelligent Systems." Information and Software Technology (2026): 108152.
 
 #### 🛰️ Current work
 - **SpectroJam-Net** (HEC Pakistan NRPU project): deep learning for spectrogram-based RF
