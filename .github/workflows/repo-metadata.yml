@@ -1,0 +1,24 @@
+name: Repo metadata
+
+# Applies descriptions and topics from repos.yml whenever that file changes,
+# or on demand from the Actions tab ("Run workflow").
+on:
+  push:
+    paths: [repos.yml, scripts/apply_repo_metadata.py]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: python scripts/apply_repo_metadata.py repos.yml
+        env:
+          REPO_METADATA_TOKEN: ${{ secrets.REPO_METADATA_TOKEN }}

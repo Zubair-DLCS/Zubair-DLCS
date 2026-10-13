@@ -1,0 +1,31 @@
+# Descriptions and topics for every repository on this account.
+# Edit this file and commit: the "Repo metadata" workflow applies it automatically.
+# Topics: lowercase letters, numbers and hyphens only; at most 20 per repo.
+# To add a repo, copy one block and change the three fields.
+
+owner: Zubair-DLCS
+
+repos:
+  - name: Noise-robust-ECG-classification
+    description: Robustness and calibration audit of ECG beat classification on unseen patients under real recorded noise (MIT-BIH, NSTDB)
+    topics: [ecg, trustworthy-ml, robustness, calibration, pytorch, mit-bih, deep-learning]
+
+  - name: Discourse-SINR
+    description: "Coordinated influence campaigns as jammers in the information space: a simulation study"
+    topics: [information-integrity, adversarial-ml, coordinated-behavior, simulation]
+
+  - name: beyond-copy-paste
+    description: Detecting coordinated campaigns that paraphrase with AI, and the privacy cost of detection
+    topics: [coordinated-behavior, llm-detection, differential-privacy, nlp]
+
+  - name: two-clocks
+    description: "Forensics of 1.79M IRA tweets: natural experiments on time zones, roles and coordination"
+    topics: [computational-social-science, disinformation, network-analysis]
+
+  - name: engineered-emotion
+    description: "Emotion AI on 3,498 IRA Facebook ads: which emotions were paid for and which earned clicks"
+    topics: [emotion-detection, propaganda, nlp]
+
+  - name: south-asia-discourse
+    description: Cross-border hostility detection in Pakistani and Indian code-mixed social media
+    topics: [hate-speech, code-mixing, roman-urdu, transfer-learning]
