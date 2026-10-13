@@ -11,7 +11,7 @@ My background is **ML/DL applications in cybersecurity and information integrity
 #### 🔬 Research interests
 - Trustworthy and robust ML in adversarial, safety-critical settings
 - Detection of jamming, interference and coordinated manipulation
-- Computational social science and information integrity
+- Computational social science and information integrity, especially in South Asian languages
 - Spectrogram- and signal-based deep learning (CNNs, Vision Transformers)
 
 #### 📌 Featured projects
@@ -19,6 +19,12 @@ My background is **ML/DL applications in cybersecurity and information integrity
 campaigns that paraphrase with AI. Exact matching recognises 0% of AI rewrites, semantic similarity 91%;
 a detector trained on other campaigns holds at 0.97 average precision under combined evasion. Also
 measures what privacy protections (hashing, coarse timestamps, differential privacy) cost detection.
+
+**[One Language, Two Borders](https://github.com/Zubair-DLCS/south-asia-discourse)**: online hostility in
+Pakistani Roman Urdu and Indian Hindi-English social media. An Indian-trained detector works in
+Pakistan (AUC 0.86) but not the reverse (0.71), because the two datasets define hostility
+differently, not because the language differs. In Pakistani tweets, naming domestic politicians
+raises the odds of abuse 3.7-fold; in Indian posts, hostility rises when Pakistan is mentioned.
 
 **[Two Clocks](https://github.com/Zubair-DLCS/two-clocks)**: forensics of 1.79 M tweets from Russia's Internet
 Research Agency. Two natural experiments (US daylight-saving changes and national holidays)
