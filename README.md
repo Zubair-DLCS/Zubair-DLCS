@@ -33,6 +33,8 @@ Open to PhD positions in robust and trustworthy ML.
 
 **[One Language, Two Borders](https://github.com/Zubair-DLCS/south-asia-discourse)**: online hostility in Pakistani Roman Urdu and Indian Hindi-English social media. An Indian-trained detector transfers to Pakistan (AUC 0.86) but not the reverse (0.71), because the datasets define hostility differently, not because the language differs.
 
+**[Campaign Investigator](https://github.com/Zubair-DLCS/campaign-investigator)** (AI agent): a language-model agent that investigates coordinated networks with the Beyond Copy-Paste detectors as its tools. The detectors' clusters always contain every campaign account (perfect choice would score F1 1.00), yet the best fixed rule reaches 0.73 and two open-model agents 0.41 and 0.18: they accuse someone in every case with no campaign, ignore the signal that exposes AI-rewritten campaigns, and stop at the first campaign they find.
+
 #### Privacy in the Internet of Things
 
 **[Sensors That Know](https://github.com/Zubair-DLCS/sensors-that-know)**: how much "harmless" smart-building sensors reveal about people. An office's air-quality monitor (CO2, temperature, humidity) reconstructs arrivals and departures to within about 30 minutes (occupancy AUC 0.95), and a home's bathroom humidity sensor alone keeps a diary of 158 showers in 137 days. Averaging, rounding and noise buy privacy only by breaking the device's purpose; computing alerts on the device keeps the service and cuts the leak most, but not to zero.
