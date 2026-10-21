@@ -21,6 +21,8 @@ Open to PhD positions in robust and trustworthy ML.
 
 **SpectroJam-Net** (HEC Pakistan NRPU project, code not public): deep learning for spectrogram-based RF jamming detection with CNNs and Vision Transformers, plus the SpectroJam-Synth pipeline for synthetic signal datasets (QPSK, OFDM, STFT).
 
+**[Gatecrasher](https://github.com/Zubair-DLCS/Gatecrasher-Audit-Aware-Adversaries-Robustness-and-the-Verification-of-Trustworthiness-Claims-in-ML)**: what empirical audits of privacy, robustness and fairness claims can actually settle. Re-running one audit 300 times on one unchanged model leaves an indeterminate band of claim thresholds it cannot decide: 0.40 wide for an equalised-odds audit at 100 queries. A canary privacy audit passes a model with no privacy protection at all 94% of the time at 20 canaries, and the same model reports 0.82 or 0.34 robust accuracy depending only on how hard the auditor attacks. Proposes claim cards that carry the band, so PASS can be told apart from "this audit cannot tell".
+
 #### Trustworthy ML for information integrity
 
 **[Discourse-SINR](https://github.com/Zubair-DLCS/Discourse-SINR)** (simulation): the bridge between my two settings. It treats coordinated influence campaigns as jammers in the information space, measures how much coordination drowns out authentic voices, tests whether detectors survive adaptive adversaries, and quantifies what mitigation costs real users.
