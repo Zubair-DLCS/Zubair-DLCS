@@ -23,7 +23,7 @@ Open to PhD positions in robust and trustworthy ML.
 
 #### Attacks on AI agents and on machine-made evidence
 
-**[Poisoned Papers](https://github.com/Zubair-DLCS/Poisoned-Papers)**: can one hidden sentence in an abstract hijack an AI agent that screens papers for a systematic review? Uses real screening decisions from four software-engineering reviews (23,436 abstracts). A pattern filter that sends suspicious records to a human flags only 17 genuine abstracts (0.07%) and catches all five attacks it was written against, but none of ten other phrasings of the same attack, and it cannot see a plain relevance claim at all. The attack-and-defence grid on open models (prompt warnings, spotlighting, the filter) is running now.
+**[Poisoned Papers](https://github.com/Zubair-DLCS/Poisoned-Papers)**: can one hidden sentence in an abstract hijack an AI agent that screens papers for a systematic review? Yes, in the direction that matters most. On real records from four software-engineering reviews, one appended sentence knocked out every relevant paper that Qwen2.5-7B and Llama-3.1-8B would otherwise have kept, while attempts to smuggle irrelevant papers in succeeded 0–8% of the time. A security warning and spotlighting left the exclude attacks at 81–100%, and 79% of the knocked-out papers were given an ordinary, criteria-based reason, so a person checking the agent's reasons would see nothing wrong. A keyword filter catches the attacks it was written for and none of ten other phrasings.
 
 **[Show, Don't Cite](https://github.com/Zubair-DLCS/show-dont-cite)**: an answer engine that backs technical claims with runnable proofs of concept instead of links, and a test for when such a proof proves nothing. For each claim the prover writes one PoC for the claim and, in a separate call, one for its negation; if both pass, the evidence is hollow. On a 66-claim benchmark whose labels are all verified by execution, a prover that hides an always-true condition gets every false claim accepted with a single PoC and slips past a static linter every time; the negation check rejects all of them without reading the code. Runs with real language models are next.
 
@@ -63,7 +63,7 @@ Both apps run on an ordinary Windows laptop, keep no video or audio, and come wi
 
 #### Current work
 - A cross-domain review of interference detection, estimation and removal across RF communications and biomedical signals (ECG, EEG, MRI).
-- Running the language-model experiments for Poisoned Papers and Show, Don't Cite, and the Sindh case study for SAR flood shift.
+- Running the language-model experiments for Show, Don't Cite and the Sindh case study for SAR flood shift.
 
 #### Tools
 Python · PyTorch · scikit-learn · SHAP · Hugging Face Transformers · Ollama · MediaPipe · OpenCV · rasterio/xarray · NumPy/SciPy · wfdb · NetworkX · GNU Radio · C++ · LaTeX
