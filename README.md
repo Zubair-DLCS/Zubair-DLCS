@@ -1,8 +1,8 @@
 ### Hi, I'm Zubair
 
-PhD researcher in machine learning at the **University of Malakand**, Pakistan, and Assistant Professor of Computer Science at G.C.M.S Timergara.
+I am an **Assistant Professor** of Computer Science in **Higher Education Department**, Khyber Pakhtunkhwa, Pakistan. I am pursuing my PhD in Machine Learning at the **University of Malakand**, Pakistan, 
 
-I build machine-learning systems and then test them in the conditions their lab scores never covered: unseen patients, a later year of malware, a country the model never saw, an author who hides an instruction in an abstract, a classroom with dim light and a cheap webcam. Most of my projects ask one of two questions:
+I train M.L models and then evaluate them in adversarial conditions, finding out their weaknesses and ways to improve their accuracy and reliability. my projects ask one of two questions:
 
 - **Does the evaluation tell the truth?** A detector at 0.98 ROC-AUC can miss a third of next year's malware, and an ECG model can gain accuracy while it stops finding ventricular beats.
 - **Does the model know when it should not be trusted?** It should say "not sure", raise its uncertainty when the input moves away from training, and resist text written to manipulate it.
