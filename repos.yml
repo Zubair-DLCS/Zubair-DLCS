@@ -29,3 +29,39 @@ repos:
   - name: south-asia-discourse
     description: Cross-border hostility detection in Pakistani and Indian code-mixed social media
     topics: [hate-speech, code-mixing, roman-urdu, transfer-learning]
+
+  - name: Gatecrasher-Audit-Aware-Adversaries-Robustness-and-the-Verification-of-Trustworthiness-Claims-in-ML
+    description: What empirical audits of privacy, robustness and fairness claims can actually settle, and claim cards that report the undecidable band
+    topics: [trustworthy-ml, ml-auditing, privacy-auditing, adversarial-robustness, fairness]
+
+  - name: campaign-investigator
+    description: A language-model agent that investigates coordinated networks with detector tools, and where it goes wrong
+    topics: [ai-agents, llm, coordinated-behavior, information-integrity]
+
+  - name: sensors-that-know
+    description: How much smart-building sensors (CO2, humidity) reveal about occupants, and what privacy defences cost
+    topics: [iot, privacy, smart-buildings, inference-attacks, time-series]
+
+  - name: malicious-npm-drift
+    description: Explainable detection of malicious npm packages, and how much of it survives a temporal, campaign-grouped evaluation
+    topics: [malware-detection, supply-chain-security, npm, concept-drift, explainable-ai, shap]
+
+  - name: Poisoned-Papers
+    description: Hidden prompt injections in abstracts against AI agents that screen papers for systematic reviews, and the defences
+    topics: [prompt-injection, llm-security, ai-agents, systematic-review, llm]
+
+  - name: show-dont-cite
+    description: An answer engine that backs claims with runnable proofs of concept, and a negation check that catches hollow evidence
+    topics: [llm, nlp, fact-checking, code-generation, evaluation, mutation-testing]
+
+  - name: sar-flood-shift
+    description: Sentinel-1 SAR flood segmentation under distribution shift, tested on Bolivia and the 2022 Sindh floods, with uncertainty
+    topics: [remote-sensing, sentinel-1, flood-mapping, uncertainty, distribution-shift, segmentation]
+
+  - name: ClassWatch
+    description: Privacy-first classroom attention - live webcam demo and a model that tells thinking hard from mind wandering
+    topics: [learning-analytics, ai-in-education, multimodal, mediapipe, calibration, privacy]
+
+  - name: PairWatch
+    description: Windows app measuring how pairs collaborate in C++ pair programming (talk, gaze, typing) against task performance
+    topics: [pair-programming, learning-analytics, ai-in-education, multimodal, cpp, mediapipe]
